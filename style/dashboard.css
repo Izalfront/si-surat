@@ -1,0 +1,36 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.dashboard-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.dashboard-container h2 {
+  margin-bottom: 20px;
+}
+
+.keterangan {
+  background-color: #f8f9fa;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  max-width: 100%;
+  max-height: 100%;
+}

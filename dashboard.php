@@ -12,59 +12,38 @@ if (!isset($_SESSION['loggedin'])) {
 <head>
     <title>Dashboard</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body {
-            background-color: #f8f9fa;
-        }
+    <link rel="stylesheet" href="./style/dashboard.css">
 
-        .dashboard-container {
-            max-width: 900px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        .dashboard-container h2 {
-            margin-bottom: 20px;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="dashboard-container">
-            <h2 class="text-center">Dashboard</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Surat Masuk </h5>
-
-                            <a href="surat_masuk.php" class="btn btn-primary">Masuk</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Surat Keluar</h5>
-
-                            <a href="surat_keluar.php" class="btn btn-primary">Masuk</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">LogOut</h5>
-
-                            <a href="logout.php" class="btn btn-primary">Logout</a>
-                        </div>
-                    </div>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="dashboard.php">Pengelolaan Surat</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboard.php">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="surat_masuk.php">Surat Masuk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="surat_keluar.php">Surat Keluar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout.php">Logout</a>
+                    </li>
+                </ul>
             </div>
+        </div>
+    </nav>
+    <div class="keterangan">
+        <div class="image">
+            <img src="wallpaper.jpg" alt="">
         </div>
     </div>
 
