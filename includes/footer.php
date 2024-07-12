@@ -23,10 +23,3 @@
         </div>
     </div>
 </nav>
-
-<!-- includes/footer.php -->
-<footer class="footer bg-dark text-white">
-    <div class="container">
-        <p>&copy; 2024 Muhammad Rizal Wahyudi</p>
-    </div>
-</footer>

@@ -41,10 +41,26 @@ if (!isset($_SESSION['loggedin'])) {
             </div>
         </div>
     </nav>
-    <div class="keterangan">
-        <div class="image">
-            <img src="wallpaper.jpg" alt="">
+    <div class="konten">
+        <div class="keterangan">
+            <div class="penjelasan">
+                <h1>Sistem Generate Surat Masuk & Keluar </h1>
+                <p>Sistem generate surat masuk dan keluar untuk uji kompetensi 2024</p>
+            </div>
         </div>
+        <div class="let-get">
+            <a class="surat-masuk" href="surat_masuk.php">Surat Masuk</a>
+            <a class="surat-keluar" href="surat_keluar.php">Surat Keluar</a>
+        </div>
+
+    </div>
+
+    <div class="image">
+        <img src="letter-1720755480050-4266.jpg" alt="">
+    </div>
+
+
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
